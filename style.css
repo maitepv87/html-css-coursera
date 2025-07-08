@@ -180,6 +180,13 @@ html {
     scroll-behavior: smooth;
 }
 
+/* ───── Active menu item ───── */
+.main-nav a.active {
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #d0e7d2;
+}
+
 /* ───── mobile-friendly ───── */
 @media (max-width: 600px) {
     .hero h2 {
